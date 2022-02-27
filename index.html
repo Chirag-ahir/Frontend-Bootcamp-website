@@ -4,36 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-  />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+   
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+      <link
+        href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+        rel="stylesheet"
+      />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link rel="stylesheet" href="/style.css">
-    <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png">
     <title>Frontend Bootcamp</title>
   </head>
   <body onload="sweet()">
-  
+
+    
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+    <nav class="navbar navbar navbar-dark bg-dark navbar-inverse navbar-expand-lg py-3 fixed-top">
       <div class="container p-2">
         <img src="/img/pngwing.com (1).png" width="45px">
         <a href="" class="navbar-brand">&nbsp;&nbsp;Frontend Bootcamp</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+      
+        <div class="collapse navbar-collapse" id="Navcol">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="#learn">What You'll gain</a>
@@ -185,7 +184,7 @@
     </section>
     
     <!-- question accordian -->
-    <section class="p-5" id="questions">
+    <section class="p-2 mt-3 p-md-5 mt-md-0" id="questions">
       <div class="container">
         <h2 class="text-center mb-4">
           Frequently asked Questions
@@ -424,15 +423,13 @@
     </div>
           
 
-
-
-
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"
   ></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
 
   <script>
@@ -447,7 +444,7 @@
     var currYear = new Date().getFullYear();
     document.getElementById("year").innerHTML = currYear;
   </script>
-  <script>
+  <!-- <script>
       function sweet(){
       swal({
         title: "Good click!",
@@ -456,7 +453,7 @@
         button: "Aww yiss!",
       });
     }
-  </script>
+  </script> -->
 
 
 
